@@ -18,7 +18,7 @@ public class Analyze_CsvSaver {
 	private FileOutputStream fo;
 	
 	void DaySaver(ArrayList D, int[] T) throws IOException {
-		file = new File("C:\\Users\\안찬혁\\Desktop\\EverLand\\EverLand_Day.csv");
+		file = new File("EverLand_Day.csv");
 		fo = new FileOutputStream(file);
 		ow = new OutputStreamWriter(fo, "MS949");
 		bw = new BufferedWriter(ow);
@@ -34,7 +34,7 @@ public class Analyze_CsvSaver {
 	
 	void TypeSaver() throws IOException {
 		ShowResult sh = new ShowResult();
-		file = new File("C:\\Users\\안찬혁\\Desktop\\EverLand\\EverLand_Type.csv");
+		file = new File("EverLand_Type.csv");
 		fo = new FileOutputStream(file);
 		ow = new OutputStreamWriter(fo, "MS949");
 		bw = new BufferedWriter(ow);
@@ -51,7 +51,7 @@ public class Analyze_CsvSaver {
 	}
 	
 	void DiscountSaver(int Total, int none, int disable, int patriot, int multi_child, int pregnant) throws IOException {
-		file = new File("C:\\Users\\안찬혁\\Desktop\\EverLand\\EverLand_Discount.csv");
+		file = new File("EverLand_Discount.csv");
 		fo = new FileOutputStream(file);
 		ow = new OutputStreamWriter(fo, "MS949");
 		bw = new BufferedWriter(ow);

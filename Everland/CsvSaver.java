@@ -14,7 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class CsvSaver {
-	File file =  new File("C:\\Users\\안찬혁\\Desktop\\EverLand\\EverLand.csv");
+	File file =  new File("Everland.csv");
 	private FileWriter fw;
 	private BufferedWriter bw;
 	private FileOutputStream fo;

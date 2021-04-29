@@ -18,7 +18,7 @@ public class ShowResult {
 		System.out.println("=============================Everland.csv==============================");
 		for (int i = 0; i < Data.length; i++) {
 			for (int j = 0; j < Data[i].length; j++) {
-				System.out.printf("%-10s", Data[i][j]);
+				System.out.printf("%-12s", Data[i][j].trim());
 			}
 			System.out.println();
 		}
@@ -113,6 +113,7 @@ public class ShowResult {
 		System.out.printf("다자녀          :   %d매\n",multi_child);
 		System.out.printf("임산부          :   %d매\n",pregnant);
 		System.out.println("-----------------------------------");
+		
 		save.DiscountSaver(Total,none,disable,patriot,multi_child,pregnant);
 		
 	}

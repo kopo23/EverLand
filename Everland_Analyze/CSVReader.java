@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class CSVReader {
 	ShowResult show = new ShowResult();
-	File file =  new File("C:\\Users\\안찬혁\\Desktop\\EverLand\\EverLand.csv");
+	File file =  new File("EverLand.csv");
 	FileInputStream fi;
 	InputStreamReader ir;
 	BufferedReader br;
